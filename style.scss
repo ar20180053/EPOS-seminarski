@@ -1,0 +1,23 @@
+$headerW: 95%;
+$headerH:400px;
+$headerG: block;
+$menu: sticky;
+$imagesW: 300px;
+$imagesH: 400px;
+
+.header {
+    width: $headerW;
+    height: $headerH;
+    display: $headerG;
+    margin: auto;
+}
+
+.navbar {
+    position: $menu;
+    top: 0;
+}
+
+.images {
+    width: $imagesW;
+    height: $imagesH;
+}
